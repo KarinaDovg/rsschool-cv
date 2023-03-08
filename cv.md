@@ -14,3 +14,37 @@ I am 24 years old. I work at a Nuclear power plant as a chemist engineer. I want
 *  SQL
 *  JAVA
 *  Android
+# **Code Examples**
+```
+function century(year) {
+  if (year%100===0){
+    return year/100;
+  }
+  else {
+    return Math.ceil(year/100);
+  }
+}
+```
+# **Projects**
+Course project: ["Adventure Time"](https://drive.google.com/drive/folders/1Frw17Zo03qVZZu0lSkRdDJ8jYuZzF2RL)
+# **Education**
+
+*  **Chemistry Faculty BSU** 
+
+*Specialization:* Chemist. Chemist-engineer
+
+*Specialty:* Scientific and production activity
+
+*2015-2019*
+
+*  **Business Institute BSU** 
+
+*Specialization:* Software engineer
+
+*Retraining Specialty:* Information systems software
+
+*2021-2023*
+
+# **Languages**
+*  **Russian** - native speaker.
+*  **English** - A2 (B1 in process...)
