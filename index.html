@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My_CV</title>
+  <link rel="shortcut icon" href="./img/atom.png" type="image/png">
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <nav class="nav-menu">
+        <ul id="nav" class="nav_list">
+          <li><a href="#info">Personal info</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact_info">My Contact Info</a></li>
+          <li><a href="#study">Directions of study</a></li>
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#code_examples">Code Examples</a></li>
+          <li><a href="#literacy">Computer Literacy</a></li>
+          <li><a href="#qualities">Personal qualities</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- <button id="burger" class="header__burger">
+      <span></span>
+    </button> -->
+    <div class="content">
+      <div class="content-one"></div>
+    </div>
+    <div class="header-text">
+      <h1><span>Dovguleva</span><br>Karina Yurievna</h1>
+      <h2>Chemist-engineer, software engineer</h2>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="container-left">
+        <div class="container-photo">
+          <img src="./img/photo_cv.png" alt="my_photo">
+        </div>
+        <div id="info" class="container-left_1">
+          <h2 class="title_text">Personal info</h2>
+          <p class="text"><i>Date of birth:</i> 18.06.1998 (25 years old)
+            <br><i>Family status:</i> Married
+            <br><i>Registration:</i> Grodno region, Ostrovets, st. 3 Lipenya 3, 8
+          </p>
+        </div>
+          <div id="education" class="container-left_1">
+            <h2 class="title_text">Education</h2>
+            <p class="text">Chemistry Faculty BSU
+              <br>Specialization: <i>Chemist. Chemist-engineer.</i>
+              <br>Specialty:<i> Scientific and production activity</i>
+              <br><b>2015-2019</b>
+            </p>
+            <p class="text">Business Institute BSU
+              <br>Specialization: <i>Software engineer.</i>
+              <br>Retraining Specialty:<i> Information systems software</i>
+              <br><b>2021-2023</b>
+            </p>
+          </div>
+          <div id="languages" class="container-left_1">
+            <h2 class="title_text">Languages</h2>
+            <p class="text">Russian - native speaker.
+              <br>English - A2 (B1 in process...)
+            </p>
+          </div>
+          <div id="contact_info" class="container-left_1">
+            <h2 class="title_text">My Contact Info</h2>
+            <!-- <p class="text"> -->
+              <ul class="my_info">
+                <li>E-mail: korzhenevskaya.2020@mail.ru</li>
+                <li>Phone: +375295420678</li>
+                <li>Github: <a href="https://github.com/KarinaDovg" class="git_link">KarinaDovg</a></li>
+              </ul>
+              <div class="contact_images">
+                <img src="./img/phone.png" alt="phone">
+                <img src="./img/inst.png" alt="instagram">
+                <img src="./img/tele.png" alt="telegeram">
+              </div>
+            <!-- </p> -->
+          </div>
+      </div>
+      <div class="container-right">
+        <div id="study" class="container-right_1">
+          <h2 class="title_text">Skills in programming</h2>
+          <!-- <p class="text"> -->
+            <ul class="skills_study">
+              <li>Designing software for information systems</li>
+              <li>Programming in OOP languages С++, С# and Java</li>
+              <li>Modern tools and technologies for developing, testing and debugging software</li>
+              <li>Tools for visual design of applications</li>
+              <li>Internet technologies and tools for developing Web applications using cascading style sheets (CSS), JavaScript and PHP</li>
+              <li>Organization of database management systems and design of relational databases for applied tasks</li>
+              <li>Fundamentals of computer networks and distributed computing</li>
+            </ul>
+          <!-- </p> -->
+        </div>
+          <div id="about_me" class="container-right_1">
+            <h2 class="title_text">About Me</h2>
+            <p class="text">I am 25 years old. I work at a Nuclear power plant as a chemist engineer. I want to change my area of work. In March 2023, I graduated as a software engineer and I want to start working in a new direction in the near future. I really need in activities where I can develop during my life. That is why I'm here. My goal is to consolidate knowledge in the field of front-end development.
+            </p>
+          </div>
+          <div id="experience" class="container-right_1">
+            <h2 class="title_text">Experience (projects)</h2>
+            <p class="text">Study project: <a href="https://karinadovg.github.io/clean-code-s1e1/" class="link_project">"Clean Code"</a>
+            </p>
+            <p class="text">Educational project: <a href="https://karinadovg.github.io/cssBayan/cssBayan/index.html" class="link_project">"CSS Bayan"</a>
+            </p>
+          </div>
+          <div id="code_examples" class="container-right_1">
+            <h2 class="title_text">Code Examples</h2>
+              <pre>
+                function century(year) {
+                  if (year%100===0){
+                    return year/100;
+                  }
+                  else {
+                    return Math.ceil(year/100);
+                  }
+                }
+              </pre>
+          </div>
+          <div id="literacy" class="container-right_1">
+            <h2 class="title_text">Computer Literacy</h2>
+            <p class="text">Microsoft Office, Microsoft Office Excel, Pascal ABC, Wolfram Mathematica, EIS Spectrum Analyzer, 1C, Microsoft Visual Studio, IBM Rational Rose Enterprise, IntelliJ IDEA, Android Studio, Microsoft SQL Server, Visual Studio Code.
+            </p>
+          </div>
+          <div id="qualities" class="container-right_1">
+            <h2 class="title_text">Personal qualities</h2>
+            <p class="text">Responsible, sociable, fair, stress-resistant, able to work in a team, I have leadership qualities. Quick adaptation in a new team. Ready for learning. Without bad habbits.
+            </p>
+          </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/KarinaDovg" class="footer_link">KarinaDovg</a>
+    <a href="https://rs.school/js/" class="logo_rs">
+      <img src="./img/logo_rs.svg" alt="logotip">
+    </a>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
